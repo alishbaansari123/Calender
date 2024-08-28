@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calender</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-image: url(asset/background\ -image.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .month {
+        height: 50%;
+        width: 23rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+      }
+
+      div span,
+      .dates-p {
+        font-weight: 500;
+        color: white;
+      }
+
+      .h1 {
+        font-family: Elephant;
+      }
+
+      .april-s {
+        padding-left: 18px;
+        padding-right: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="home-page">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade mx-auto mt-5"
+        style="width: 23rem"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                January <br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <!-- month-1 -->
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p class="text-end dates-p" style="padding-right: 35px">1</p>
+                <p class="d-flex justify-content-evenly">
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22 </span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                  <span>29 </span>
+                </p>
+                <p class="text-start dates-p" style="padding-left: 25px">
+                  <span>30</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                February<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <!-- month-2 -->
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p
+                  class="dates-p d-flex justify-content-center"
+                  style="padding-left: 11rem"
+                >
+                  <span class="px-3">1</span>
+                  <span class="px-3">2</span>
+                  <span class="px-3">3</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 28px">
+                  <span style="padding-right: 28px">25</span>
+                  <span style="padding-right: 28px">26</span>
+                  <span style="padding-right: 28px">27</span>
+                  <span style="padding-right: 28px">28</span>
+                  <span style="padding-right: 28px">29</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-3  -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                March<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p
+                  class="dates-p d-flex justify-content-center"
+                  style="padding-left: 14.5rem"
+                >
+                  <span class="px-3">1</span>
+                  <span class="px-3">2</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                  <span>29</span>
+                  <span>30</span>
+                </p>
+
+                <p class="text-start dates-p" style="padding-left: 25px">
+                  <span>31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-4 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                April<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+
+                <p
+                  class="d-flex justify-content-end"
+                  style="padding-right: 30px"
+                >
+                  <span class="" style="padding-right: 30px">1</span>
+                  <span class="ps-2">2</span
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="px-2">3</span>
+                  <span class="px-4">4</span>
+                  <span class="px-3">5</span>
+                  <span class="ps-4 pe-1">6</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 12px">
+                  <span class="april-s">28</span>
+                  <span class="april-s">29</span>
+                  <span class="april-s">30</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-5 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                May<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p class="dates-p d-flex justify-content-end pe-3">
+                  <span class="px-3">1</span>
+                  <span class="px-3">2</span>
+                  <span class="px-3">3</span>
+                  <span class="px-3">4</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 28px">
+                  <span style="padding-right: 28px">26</span>
+                  <span style="padding-right: 28px">27</span>
+                  <span style="padding-right: 28px">28</span>
+                  <span style="padding-right: 28px">29</span>
+                  <span style="padding-right: 28px">30</span>
+                  <span style="padding-right: 28px">31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-6 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                June<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p class="text-end dates-p" style="padding-right: 35px">1</p>
+                <p class="d-flex justify-content-evenly">
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22 </span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                  <span>29 </span>
+                </p>
+                <p class="text-start dates-p" style="padding-left: 25px">
+                  <span>30</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-7 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                July<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+
+                <p
+                  class="d-flex justify-content-end"
+                  style="padding-right: 30px"
+                >
+                  <span class="" style="padding-right: 30px">1</span>
+                  <span class="ps-2">2</span
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="px-2">3</span>
+                  <span class="px-4">4</span>
+                  <span class="px-3">5</span>
+                  <span class="ps-4 pe-1">6</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 12px">
+                  <span class="april-s">28</span>
+                  <span class="april-s">29</span>
+                  <span class="april-s">30</span>
+                  <span class="april-s">31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-8 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                August<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p
+                  class="dates-p d-flex justify-content-center"
+                  style="padding-left: 12.5rem"
+                >
+                  <span class="px-3">1</span>
+                  <span class="px-3">2</span>
+                  <span class="px-3">3</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                  <span>29</span>
+                  <span>30</span>
+                </p>
+
+                <p class="text-start dates-p" style="padding-left: 25px">
+                  <span>31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-9 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                September<br />
+                <small class="fw-bold" style="padding-left: 170px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+
+                <p
+                  class="d-flex justify-content-end"
+                  style="padding-right: 30px"
+                >
+                  <span class="" style="padding-right: 38px">1</span>
+                  <span class="" style="padding-right: 30px">2</span>
+                  <span class="ps-2">3</span
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="px-2">4</span>
+                  <span class="px-4">5</span>
+                  <span class="px-3">6</span>
+                  <span class="ps-4 pe-1">7</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 12px">
+                  <span class="april-s">29</span>
+                  <span class="april-s">30</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-10 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                Octobet<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+
+                <p
+                  class="d-flex justify-content-end"
+                  style="padding-right: 30px"
+                >
+                  <span class="" style="padding-right: 30px">1</span>
+                  <span class="ps-2">2</span
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="px-2 pe-4">3</span>
+                  <span class="px-3">4</span>
+                  <span class="ps-4 pe-1">5</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 13px">
+                  <span class="april-s">27</span>
+                  <span class="april-s">28</span>
+                  <span class="april-s">29</span>
+                  <span class="april-s">30</span>
+                  <span class="april-s">31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-11 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                November<br />
+                <small class="fw-bold" style="padding-left: 120px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+                <p
+                  class="dates-p d-flex justify-content-center"
+                  style="padding-left: 14.5rem"
+                >
+                  <span class="px-3">1</span>
+                  <span class="px-3">2</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                  <span>22</span>
+                  <span>23</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                  <span>29</span>
+                  <span>30</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- month-12 -->
+          <div class="carousel-item">
+            <div class="content px-5 pb-2">
+              <p class="h1">
+                December<br />
+                <small class="fw-bold" style="padding-left: 170px">2024</small>
+              </p>
+            </div>
+
+            <div class="month pt-4">
+              <div class="text-center">
+                <span class="mx-3">S</span>
+                <span class="mx-3">M</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">W</span>
+                <span class="mx-3">T</span>
+                <span class="mx-3">F</span>
+                <span class="mx-3">S</span>
+              </div>
+
+              <div class="dates pt-3 p-2">
+                <p class="mt-2" style="border-top: 1px solid white"></p>
+
+                <p
+                  class="d-flex justify-content-end"
+                  style="padding-right: 30px"
+                >
+                  <span class="" style="padding-right: 38px">1</span>
+                  <span class="" style="padding-right: 30px">2</span>
+                  <span class="ps-2">3</span
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span class="px-2">4</span>
+                  <span class="px-4">5</span>
+                  <span class="px-3">6</span>
+                  <span class="ps-4 pe-1">7</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                  <span>21</span>
+                </p>
+
+                <p class="d-flex justify-content-evenly">
+                  <span>22</span>
+                  <span>23</span>
+                  <span>24</span>
+                  <span>25</span>
+                  <span>26</span>
+                  <span>27</span>
+                  <span>28</span>
+                </p>
+
+                <p class="d-flex" style="padding-left: 12px">
+                  <span class="april-s">29</span>
+                  <span class="april-s">30</span>
+                  <span class="april-s">31</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- homepage end -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
